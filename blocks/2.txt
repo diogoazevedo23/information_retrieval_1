@@ -1,1 +1,0 @@
-{"azevedo": {"9J": 1}, "madureira": {"10K": 1}, "nenhum": {"9J": 1}, "ricardo": {"10K": 1}}

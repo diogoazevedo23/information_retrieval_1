@@ -60,7 +60,7 @@ class Merger:
         if termo_final in dictionary_final:
             self.contagem.append(dictionary_final[termo_final].keys())
 
-        print("Contagem -> ", self.contagem)
+        # print("Contagem -> ", self.contagem)
 
     """ Get size of nested dictionary """
 
