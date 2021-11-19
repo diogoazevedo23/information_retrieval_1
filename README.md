@@ -2,14 +2,15 @@
 
 <h1>Information Retrieval work #1</h1>
 
-<h4>!!!IMPORTANT!!!</h4>
+<h4>!!! IMPORTANT !!!</h4>
 Before starting the program, you need to install these two dependencies.
 
 pip install PySteemer
 pip install psutil
 
+---------------
 
-How to execute:
+<h7>How to execute:</h7>
 
 py teste1.py 'min_tamanho_palavra' 'stopwords' 'stemmer' 'chunksize'
 
@@ -21,8 +22,9 @@ chunkzise: integer"
 example:
 py teste1.py 4 yes yes 120000
 
-
 This file will read a .tsv and index it.
+
+---------------
 
 Then we can do the index searcher with:
 
