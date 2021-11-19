@@ -36,10 +36,10 @@
 
 ---------------
 
-<h2>TL;DR</h2>
+<h3>TL;DR</h3>
 
 <h4>Index:</h4>
-<h5>py teste1.py 4 yes yes 120000</h5>
+**py teste1.py 4 yes yes 120000**
 <p>
 <h4>Search:</h4>
-<h5>py index1.py rock</h5>
+**py index1.py rock**
