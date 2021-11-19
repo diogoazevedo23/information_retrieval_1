@@ -38,6 +38,16 @@
 
 <h3>TL;DR</h3>
 
+<h4>Imports</h4>
+
+```jsx
+pip install PySteemer
+```
+
+```jsx
+pip install psutil
+```
+
 <h4>Index:</h4>
 
 ```jsx
