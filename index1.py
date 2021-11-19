@@ -61,6 +61,7 @@ class Merger:
             self.contagem.append(dictionary_final[termo_final].keys())
 
         # print("Contagem -> ", self.contagem)
+        # print("C2 -->", len(self.contagem[0]))
 
     """ Get size of nested dictionary """
 
@@ -83,9 +84,9 @@ class Merger:
 if __name__ == "__main__":
 
     if len(sys.argv) < 2:
-        print("Usage: py teste1.py termo('diogo')"
+        print("Usage: py teste1.py term('diogo')"
               + "\n** CHOICES **"
-              + "\ntermo = termo que pretende procurar no index")
+              + "\nterm = term you need to search on index")
         sys.exit(1)
 
     try2 = Merger()
@@ -96,8 +97,7 @@ if __name__ == "__main__":
     indexSearchFinal = indexSearchEnd - indexSearchStart
 
     with open("finalResult/finalAnswers.txt", "a") as f:
-        print("e) Amount of time taken to start up an index searcher, after the final index is written to disk ==",
+        print("\ne) Amount of time taken to start up an index searcher, after the final index is written to disk ==",
               indexSearchFinal, "s.", file=f)
-        print("\nFicheiros em que o termo", sys.argv[1], "aparece =", len(
-            try2.contagem), "documentos", file=f)
-        # print("\nFicheiros em que o termo", sys.argv[1], "aparece =", try2.contagem, file=f)
+        print("\nThe term", sys.argv[1], "is in", len(
+            try2.contagem[0]), "documents", file=f)

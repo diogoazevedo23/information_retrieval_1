@@ -144,8 +144,8 @@ class teste1:
 
     def printToFile(self, messageA, messageB, messageC, messageD):
         with open('finalResult/finalAnswers.txt', 'w') as f:
-            print("Ficheiro ==", self.file, file=f)
-            print("\n\t**Perguntas**\n\n", file=f)
+            print("File ==", self.file, file=f)
+            print("\n\t**Answers**\n\n", file=f)
             print("a) Total indexing time ==", messageA, "s.", file=f)
             messageB2 = (f"{messageB/float(1<<30):,.3f} GB")
             print("b) Total index size on disk ==", messageB2, file=f)
