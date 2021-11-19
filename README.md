@@ -41,7 +41,7 @@
 <h4>Imports</h4>
 
 ```jsx
-pip install PySteemer
+pip install PyStemmer
 ```
 
 ```jsx
