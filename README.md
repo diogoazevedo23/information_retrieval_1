@@ -4,7 +4,7 @@
 
 <h4>!!! IMPORTANT !!!</h4>
 
-<p>Before starting the program, you need to install these two dependencies.
+<p>Before starting the program, you need to install these two modules.
 
 <p>pip install PySteemer
 <p>pip install psutil
