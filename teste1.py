@@ -7,16 +7,13 @@
 """
 
 # Imports
-import sys
-import os
 from testeTokenizer import Tokenizer    # Import of Tokenizer
 from index1 import Merger               # Import of Merger
 import json                             # Json Functions
 import time                             # Time functions
+import sys
 from collections import OrderedDict     # Order dictionaries
 import csv                              # Ler ficheiros csv
-import psutil                           # Check memory
-import threading                        # threads     // Not used yet
 
 
 """ Main class """
@@ -35,9 +32,9 @@ class teste1:
 
     def __init__(self, min_tamanho, tokenizer_mode, chunksize, file='files/amazon_reviews_us_Digital_Video_Games_v1_00.tsv'):
         self.tokenizer_mode = tokenizer_mode
+        self.tokenizer = Tokenizer(min_tamanho, tokenizer_mode)
         self.file = file
         self.chunksize = chunksize
-        self.tokenizer = Tokenizer(min_tamanho, tokenizer_mode)
         self.merger = Merger()
 
     """ Function to send chunks of data to processing """
@@ -83,6 +80,8 @@ class teste1:
                 num += 1
                 self.criarBlocos(tokens)
                 num1 += 1
+
+        # print(" ")
 
     """ Indexing of datachunks that were already processed """
 
