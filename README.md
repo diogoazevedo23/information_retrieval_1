@@ -1,5 +1,9 @@
 <h1>Information Retrieval work #1</h1>
 
+Autores:
+Diogo Azevedo nº 104654 / Ricardo Madureira nº 104624
+19/11/2021
+
 <h4>!!! IMPORTANT !!!</h4>
 
 <p>Before starting the program, you need to install these two modules.
