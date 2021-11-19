@@ -23,7 +23,7 @@
 <h5>Example:</h5>
 <h5>py teste1.py 4 yes yes 120000</h5>
 
-<p>This file will read a .tsv and index it.
+<p>This program will read a .tsv and index it.
 
 ---------------
 
