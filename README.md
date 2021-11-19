@@ -39,21 +39,12 @@
 <h3>TL;DR</h3>
 
 <h4>Index:</h4>
-** py teste1.py 4 yes yes 120000 **
+```jsx
+py teste1.py 4 yes yes 120000
+```
 <p>
 <h4>Search:</h4>
-** py index1.py rock **
-
 ```jsx
-const Button = styled.button`
-  color: grey;
-`;
+py index1.py rock
 ```
-
-```jsx
-const Button = styled.button({
-  color: 'grey',
-});
-```
-
 
