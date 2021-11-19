@@ -43,3 +43,19 @@
 <p>
 <h4>Search:</h4>
 ** py index1.py rock **
+
+```jsx
+const Button = styled.button`
+  color: grey;
+`;
+```
+
+Alternatively, you may use [style objects](https://www.styled-components.com/docs/advanced#style-objects). This allows for easy porting of CSS from inline styles, while still supporting the more advanced styled-components capabilities like component selectors and media queries.
+
+```jsx
+const Button = styled.button({
+  color: 'grey',
+});
+```
+
+
