@@ -39,7 +39,7 @@
 <h3>TL;DR</h3>
 
 <h4>Index:</h4>
-**py teste1.py 4 yes yes 120000**
+** py teste1.py 4 yes yes 120000 **
 <p>
 <h4>Search:</h4>
-**py index1.py rock**
+** py index1.py rock **
