@@ -11,17 +11,17 @@
 
 ---------------
 
-<h7>How to execute:</h7>
+<h5>How to execute:</h5>
 
-<p>**py teste1.py 'min_tamanho_palavra' 'stopwords' 'stemmer' 'chunksize'**
+<h5>py teste1.py 'min_tamanho_palavra' 'stopwords' 'stemmer' 'chunksize'</h5>
 
 <p>min_tamanho_palavra: Can be choosen with a number(int) or desativacted with 'no'"
 <p>stopwords: 'yes', 'no' or pathfile to the file that u want to use"
 <p>stemmer: 'yes' or 'no'"
 <p>chunkzise: integer"
 
-<p><strong>Example:</strong>
-<p><strong>py teste1.py 4 yes yes 120000</strong>
+<h5>Example:</h5>
+<h5>py teste1.py 4 yes yes 120000</h5>
 
 <p>This file will read a .tsv and index it.
 
@@ -29,9 +29,9 @@
 
 <p>Then we can do the index searcher with:
 
-<p><strong>py index1.py 'term'</strong>
+<h5>py index1.py 'term'</h5>
 
 <p>term: term that you are trying to find in the index
 
-<p><strong>Example:</strong>
-<p><strong>py index1.py rock</strong>
+<h5>Example:</h5>
+<h5>py index1.py rock</h5>
