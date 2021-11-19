@@ -165,8 +165,7 @@ if __name__ == "__main__":
               + "\nmin_tamanho_palavra: Can be choosen with a number or desativacted with 'no'"
               + "\nstopwords: 'yes', 'no' or pathfile to the file that u want to use"
               + "\nstemmer: 'yes' or 'no'"
-              + "\nchunkzise: integer"
-              + "\ntermo: Term that you want to find in the corpus")
+              + "\nchunkzise: integer")
         sys.exit(1)
 
     try1 = teste1(
