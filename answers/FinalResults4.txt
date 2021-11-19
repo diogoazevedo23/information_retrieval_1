@@ -1,0 +1,13 @@
+Ficheiro == F:/amazon_reviews_us_Books_v1_00.tsv
+
+	**Perguntas**
+
+
+a) Total indexing time == 9582.117805242538 s.
+b) Total index size on disk == 14.605 GB
+c) Vocabulary size(number of terms) == 1040559 terms
+d) Number of temporary index segments written to disk (before merging) == 86 blocks
+
+e) Amount of time taken to start up an index searcher, after the final index is written to disk == 712.1491894721985 s.
+
+The term author is in 1162077 documents

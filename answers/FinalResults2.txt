@@ -1,0 +1,13 @@
+Ficheiro == ficheiros/amazon_reviews_us_Digital_Music_Purchase_v1_00.tsv
+
+	**Perguntas**
+
+
+a) Total indexing time == 821.8832263946533 s.
+b) Total index size on disk == 1.326 GB
+c) Vocabulary size(number of terms) == 269699 terms
+d) Number of temporary index segments written to disk (before merging) == 15 blocks
+
+e) Amount of time taken to start up an index searcher, after the final index is written to disk == 33.80811882019043 s.
+
+The term music is in 444112 documents

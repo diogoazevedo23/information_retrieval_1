@@ -1,0 +1,12 @@
+Ficheiro == F:/amazon_reviews_us_Music_v1_00.tsv
+
+	**Perguntas**
+
+
+a) Total indexing time == 5723.306885957718 s.
+b) Total index size on disk == 8.155 GB
+c) Vocabulary size(number of terms) == 841460 terms
+d) Number of temporary index segments written to disk (before merging) == 40 blocks
+e) Amount of time taken to start up an index searcher, after the final index is written to disk == 279.4074091911316 s.
+
+The term rock is in 602797 documents

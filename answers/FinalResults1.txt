@@ -1,0 +1,13 @@
+Ficheiro == ficheiros/amazon_reviews_us_Digital_Video_Games_v1_00.tsv
+
+	**Perguntas**
+
+
+a) Total indexing time == 89.63508439064026 s.
+b) Total index size on disk == 0.149 GB
+c) Vocabulary size(number of terms) == 42799 terms
+d) Number of temporary index segments written to disk (before merging) == 2 blocks
+
+e) Amount of time taken to start up an index searcher, after the final index is written to disk == 2.5950698852539062 s.
+
+The term game is in 93834 documents
