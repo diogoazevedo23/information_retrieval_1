@@ -1,5 +1,3 @@
-# information_retrieval_1
-
 <h1>Information Retrieval work #1</h1>
 
 <h4>!!! IMPORTANT !!!</h4>
