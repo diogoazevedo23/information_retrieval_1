@@ -3,7 +3,8 @@
 <h1>Information Retrieval work #1</h1>
 
 <h4>!!! IMPORTANT !!!</h4>
-Before starting the program, you need to install these two dependencies.
+
+<p>Before starting the program, you need to install these two dependencies.
 
 <p>pip install PySteemer
 <p>pip install psutil
