@@ -1,0 +1,1 @@
+{"abstract": {"1A": 1}, "azevedo": {"3C": 1}, "diogo": {"3C": 3, "4D": 1}, "madureira": {"4D": 1}, "program": {"4D": 2}, "ricardo": {"4D": 2}, "text": {"1A": 1}}

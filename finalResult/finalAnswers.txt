@@ -1,0 +1,9 @@
+Ficheiro == files/teste1.txt
+
+	**Perguntas**
+
+
+a) Total indexing time == 0.03600454330444336 s.
+b) Total index size on disk == 0.000 GB
+c) Vocabulary size(number of terms) == 10 terms
+d) Number of temporary index segments written to disk (before merging) == 3 blocks

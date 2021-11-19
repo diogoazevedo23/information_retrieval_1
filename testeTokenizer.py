@@ -16,7 +16,7 @@ import Stemmer  # Stemmer
 
 class Tokenizer:
 
-    def __init__(self, min_tamanho, tokenizer_mode):
+    def __init__(self, min_tamanho, tokenizer_mode, steemer):
         self.stemmer = Stemmer.Stemmer('english')
         self.tokenizer_mode = tokenizer_mode
         self.min_tamanho = min_tamanho
