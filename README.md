@@ -20,8 +20,8 @@
 <p>stemmer: 'yes' or 'no'"
 <p>chunkzise: integer"
 
-<p>**Example:**
-<p>**py teste1.py 4 yes yes 120000**
+<p><strong>Example:</strong>
+<p><strong>py teste1.py 4 yes yes 120000</strong>
 
 <p>This file will read a .tsv and index it.
 
@@ -29,9 +29,9 @@
 
 <p>Then we can do the index searcher with:
 
-<p>**py index1.py 'term'**
+<p><strong>py index1.py 'term'</strong>
 
 <p>term: term that you are trying to find in the index
 
-<p>**Example:**
-<p>**py index1.py rock**
+<p><strong>Example:</strong>
+<p><strong>py index1.py rock</strong>
